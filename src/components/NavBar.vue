@@ -16,7 +16,7 @@
         <button class="navbut">Get Started</button>
       </div>
       <div class="hamburger">
-        <fa icon="fas fa-bars" />
+        <i class="fa fa-bars" aria-hidden="true"></i>
       </div>
     </div>
   </div>
