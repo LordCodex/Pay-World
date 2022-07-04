@@ -48,7 +48,7 @@
 @media (max-width: 768px) {
   .hero-section {
     flex-direction: column;
-    padding: 10px 0;
+    padding: 15px 0;
   }
   .fast {
     font-size: 2rem;

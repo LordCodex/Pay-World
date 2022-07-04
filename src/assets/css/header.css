@@ -37,6 +37,9 @@ ul li{
   font-size: 16px;
   font-weight: 600;
 }
+ a{
+color: black;
+}
 .hamburger{
   font-size: 26px;
   font-weight: 600;
@@ -66,4 +69,5 @@ ul li{
   ul li, .navbut{
     display: none;
   }
+
 }

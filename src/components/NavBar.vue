@@ -2,13 +2,13 @@
   <div class="NavBar">
     <div class="nav-section">
       <div class="logo">
-        <h1>Payworld.</h1>
+        <h1><router-link to="/">Payworld.</router-link></h1>
       </div>
       <div class="navlinks">
         <ul>
           <li>Service</li>
           <li>Payment</li>
-          <li>Company</li>
+          <li><router-link to="/about">Company</router-link></li>
           <li>News</li>
         </ul>
       </div>
