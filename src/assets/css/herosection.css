@@ -59,4 +59,7 @@
   .but {
     flex-direction: column;
   }
+  .About__section__box{
+    flex-direction: column-reverse;
+  }
 }

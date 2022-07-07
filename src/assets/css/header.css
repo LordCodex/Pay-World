@@ -17,7 +17,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
   width: 100%;
   max-width: 80%;
   margin: 0 auto;
@@ -27,11 +26,16 @@
 }
 .logo h1{
   font-size: 28.5px;
+  z-index: 999;
 }
 ul{
   display: flex;
   align-items: center;
   gap: 2em;
+  text-align: center;
+}
+ul h1{
+  font-weight: 500;
 }
 ul li{
   font-size: 16px;
@@ -56,18 +60,51 @@ color: black;
 }
 .hero-bg{
   background-color: #F6F6F6;
+  height: 100vh;
 }
 
 .hamburger{
   display: none;
+  z-index: 9999;
 }
 
 @media(max-width:768px){
   .hamburger{
     display: inline;
   }
-  ul li, .navbut{
+  ul {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100vh;
+    background-color: black;
+    padding: 3em 0;
+    color: white;
+    animation: myAnim 1s ease 0s 1 normal forwards;
+  }
+  ul a{
+    color: white;
+  }
+  .active {
     display: none;
   }
+  li{
+    margin: 1em;
+  }
+  .navbut{
+    display: none;
+  }
+}
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
 
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }

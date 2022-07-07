@@ -1,6 +1,6 @@
 <template>
   <NavBar />
-  <div>This is about page</div>
+  <div>This is about pages</div>
 </template>
 
 <script>
